@@ -1,5 +1,5 @@
 # frets
-Python 3.5.2 project
+Python 3.6.0 project
 
 Simple API for getting some useful guitar info.
 
