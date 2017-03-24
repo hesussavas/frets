@@ -1,1 +1,1 @@
-web: gunicorn epl_bot.wsgi --log-file -
+web: gunicorn frets:app
