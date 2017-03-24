@@ -1,4 +1,6 @@
 # frets
+Python 3.5.2 project
+
 Simple API for getting some useful guitar info.
 
 Firstly, user must register itself by going to the index page.

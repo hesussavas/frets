@@ -1,0 +1,292 @@
+Fret Positions,notes,chords,lowest note
+0-0-2-2-2-0,a c# e,amajor/e c#m(#5)/e,e
+0-0-2-2-2-0,a c# e,amajor/e c#m(#5)/e,e
+x-0-3-2-2-1,f c# a,a+ c#+/a f+/a,a
+x-0-3-0-2-1,f g c# a,a+7 f+add9/a a7(#5),a
+x-0-2-0-2-0,e g c# a,a7 g6sus2(b5)/a c#dim(#5)/a em6add11(omit 5)/a c#dim,a
+x-0-2-0-2-0,e g c# a,a7 g6sus2(b5)/a c#dim(#5)/a em6add11(omit 5)/a c#dim,a
+x-0-2-2-2-3,e c# g a,a7 g6sus2(b5)/a c#dim(#5)/a em6add11(omit 5)/a,a
+x-0-2-2-2-3,e c# g a,a7 g6sus2(b5)/a c#dim(#5)/a em6add11(omit 5)/a,a
+x-0-1-2-2-3,d# c# g a,a7(b5) d#7(b5)/a g+sus2(b5)/a c#+sus2(b5)/a,a
+5-x-x-5-4-5,c d# a,"adim cm6(omit 5)/a d#6(b5,omit 3)/a",a
+x-0-1-2-1-x,d# c a,"adim cm6(omit 5)/a d#6(b5,omit 3)/a",a
+x-0-1-2-1-x,d# c a,"adim cm6(omit 5)/a d#6(b5,omit 3)/a",a
+x-0-2-2-1-0,e c a,am e+sus4/a c6(omit 5)/a,a
+x-0-2-2-1-0,e c a,am e+sus4/a c6(omit 5)/a,a
+x-0-2-0-1-0,e g c a,am7 c6/a cmajor,a
+x-0-2-2-1-3,e c g a,am7 c6/a,a
+x-0-2-2-1-3,e c g a,am7 c6/a,a
+5-x-5-5-4-x,g c d# a,am7b5 d#6(b5)/a g+sus4 cm,a
+x-0-1-2-1-3,d# c g a,am7b5 d#6(b5)/a,a
+x-x-1-2-1-3,a c g d#,am7b5/d# d#6(b5),d#
+5-x-x-4-5-5,b e a,asus2 esus4/a b7sus4(omit 5)/a,a
+x-0-2-2-0-0,e b a,asus2 esus4/a b7sus4(omit 5)/a,a
+x-0-2-2-0-0,e b a,asus2 esus4/a b7sus4(omit 5)/a,a
+x-0-2-2-3-0,e d a,dsus2/a asus4 e7sus4(omit 5)/a,a
+x-0-2-2-3-0,e d a,dsus2/a asus4 e7sus4(omit 5)/a,a
+4-3-1-1-1-x,c d# g#,g#major cm(#5)/g#,g#
+4-3-1-1-1-x,c d# g#,g#major cm(#5)/g#,g#
+0-3-2-1-1-0,c g# e,e+ g#+/e c+/e,e
+0-3-2-1-1-2,c g# f# e,g#+7/e e+add9 g#7(#5)/e,e
+4-x-4-5-5-x,f# c e g#,g#+7 e+add9/g# g#7(#5),g#
+x-x-1-1-1-2,g# c f# d#,g#7/d# cdim(#5)/d# d#m6add11(omit 5) f#6sus2(b5)/d# f#sus2(b5),d#
+x-x-1-1-1-2,g# c f# d#,g#7/d# cdim(#5)/d# d#m6add11(omit 5) f#6sus2(b5)/d# f#sus2(b5),d#
+4-x-4-5-3-x,f# c d g#,g#7(b5) d7(b5)/g# c+sus2(b5)/g# f#+sus2(b5)/g# csus2(b5),g#
+4-x-4-5-3-x,f# c d g#,g#7(b5) d7(b5)/g# c+sus2(b5)/g# f#+sus2(b5)/g# csus2(b5),g#
+x-x-0-1-1-2,g# c f# d,d7(b5) f#+sus2(b5)/d g#7(b5)/d c+sus2(b5)/d f#sus2(b5),d
+4-x-x-4-3-4,b d g#,"g#dim bm6(omit 5)/g# d6(b5,omit 3)/g#",g#
+x-2-0-1-3-4,d g# b,"g#dim/b bm6(omit 5) d6(b5,omit 3)/b g#(b5, omit 3)",b
+x-x-0-1-0-1,g# b f d,ddim7 fdim7/d bdim7/d g#dim7/d fdim,d
+x-2-1-1-4-4,d# g# b,g#m/b d#+sus4/b b6(omit 5),b
+x-x-1-4-4-4,b g# d#,g#m/d# d#+sus4 b6(omit 5)/d#,d#
+4-x-4-4-4-x,f# b d# g#,g#m7 b6/g# bmajor,g#
+4-x-4-4-3-x,f# b d g#,g#m7b5 d6(b5)/g# f#+sus4 bm,g#
+x-1-1-1-4-4,d# g# a#,g#sus2/a# d#sus4/a# a#7sus4(omit 5),a#
+x-1-1-1-x-x,d# g# a#,g#sus2/a# d#sus4/a# a#7sus4(omit 5),a#
+x-x-1-1-2-4,g# c# d#,c#sus2/d# g#sus4/d# d#7sus4(omit 5),d#
+x-x-1-1-2-4,g# c# d#,c#sus2/d# g#sus4/d# d#7sus4(omit 5),d#
+x-2-4-4-4-2,f# d# b,bmajor d#m(#5)/b,b
+x-2-4-4-4-4,f# d# g# b,g#m7/b b6,b
+x-2-1-0-0-3,d# g b,b+ g+/b d#+/b,b
+x-2-5-4-4-3,g d# b,b+ d#+/b g+/b,b
+x-2-1-2-0-3,d# a g b,b+7 g+add9/b b7(#5),b
+x-2-5-2-4-x,g a d# b,b+7 g+add9/b b7(#5),b
+x-2-1-2-0-2,d# a f# b,b7 a6sus2(b5)/b d#dim(#5)/b f#m6add11(omit 5)/b,b
+x-2-1-2-0-2,d# a f# b,b7 a6sus2(b5)/b d#dim(#5)/b f#m6add11(omit 5)/b,b
+x-2-4-2-4-2,f# a d# b,b7 a6sus2(b5)/b d#dim(#5)/b f#m6add11(omit 5)/b d#dim,b
+x-2-0-4-3-1,d f b,"bdim dm6(omit 5)/b f6(b5,omit 3)/b",b
+x-2-3-4-3-x,f d b,"bdim dm6(omit 5)/b f6(b5,omit 3)/b",b
+x-2-3-4-3-x,f d b,"bdim dm6(omit 5)/b f6(b5,omit 3)/b",b
+x-2-4-4-3-2,f# d b,bm f#+sus4/b d6(omit 5)/b,b
+x-2-4-4-3-2,f# d b,bm f#+sus4/b d6(omit 5)/b,b
+x-2-4-4-3-x,f# d b,bm f#+sus4/b d6(omit 5)/b,b
+x-5-4-4-3-x,f# b d,bm/d f#+sus4/d d6(omit 5),d
+x-2-0-2-0-2,d a f# b,bm7 d6/b,b
+x-2-0-2-0-2,d a f# b,bm7 d6/b,b
+x-2-4-2-3-2,f# a d b,bm7 d6/b dmajor,b
+x-2-0-2-0-1,d a f b,bm7b5 f6(b5)/b,b
+x-2-0-2-0-1,d a f b,bm7b5 f6(b5)/b,b
+x-2-3-2-3-x,f a d b,bm7b5 f6(b5)/b dm a+sus4,b
+x-2-4-4-2-2,f# c# b,bsus2 f#sus4/b c#7sus4(omit 5)/b,b
+x-2-4-4-2-2,f# c# b,bsus2 f#sus4/b c#7sus4(omit 5)/b,b
+x-2-4-4-0-0,f# e b,esus2/b bsus4 f#7sus4(omit 5)/b,b
+x-2-4-4-5-2,f# e b,esus2/b bsus4 f#7sus4(omit 5)/b,b
+x-1-3-3-3-1,f d a#,a#major dm(#5)/a#,a#
+x-1-3-3-3-x,f d a#,a#major dm(#5)/a#,a#
+x-1-3-3-3-x,f d a#,a#major dm(#5)/a#,a#
+x-x-0-3-3-1,a# f d,a#major/d dm(#5),d
+x-1-0-3-3-2,d f# a#,a#+ f#+/a# d+/a#,a#
+x-1-4-3-3-2,f# d a#,a#+ d+/a# f#+/a#,a#
+x-1-0-2-3-2,d a f# a#,a#maj7(#5) f#+(#9)/a# dmajor,a#
+x-1-4-1-3-x,f# g# d a#,a#+7 f#+add9/a# a#7(#5),a#
+x-1-3-1-3-1,f g# d a#,a#7 g#6sus2(b5)/a# ddim(#5)/a# fm6add11(omit 5)/a# ddim,a#
+x-1-3-1-4-1,f g# d# a#,a#7sus4 g#6sus2/a#,a#
+x-x-3-3-3-4,a# d g# f,a#7/f ddim(#5)/f fm6add11(omit 5) g#6sus2(b5)/f g#sus2(b5),f
+x-1-0-1-3-0,d g# e a#,a#7(b5) e7(b5)/a# g#+sus2(b5)/a# d+sus2(b5)/a# dsus2(b5),a#
+x-1-2-1-3-x,e g# d a#,a#7(b5) d+sus2(b5)/a# e7(b5)/a# g#+sus2(b5)/a# dsus2(b5),a#
+x-1-2-3-2-0,e c# a#,"a#dim c#m6(omit 5)/a# e6(b5,omit 3)/a#",a#
+x-1-2-3-2-x,e c# a#,"a#dim c#m6(omit 5)/a# e6(b5,omit 3)/a#",a#
+x-4-2-3-2-x,e a# c#,"a#dim/c# c#m6(omit 5) e6(b5,omit 3)/c#",c#
+x-1-3-3-2-1,f c# a#,a#m f+sus4/a# c#6(omit 5)/a#,a#
+x-1-3-3-2-1,f c# a#,a#m f+sus4/a# c#6(omit 5)/a#,a#
+x-1-3-1-2-1,f g# c# a#,a#m7 c#6/a# c#major,a#
+x-1-3-1-2-1,f g# c# a#,a#m7 c#6/a# c#major,a#
+x-1-2-1-2-0,e g# c# a#,a#m7b5 e6(b5)/a# c#m g#+sus4,a#
+x-1-3-3-1-1,f c a#,a#sus2 fsus4/a# c7sus4(omit 5)/a#,a#
+x-1-3-3-1-1,f c a#,a#sus2 fsus4/a# c7sus4(omit 5)/a#,a#
+x-1-3-3-4-1,f d# a#,d#sus2/a# a#sus4 f7sus4(omit 5)/a#,a#
+x-1-3-3-4-1,f d# a#,d#sus2/a# a#sus4 f7sus4(omit 5)/a#,a#
+0-3-2-0-1-0,c g e,cmajor/e em(#5),e
+0-3-5-5-5-x,c g e,cmajor/e em(#5),e
+4-3-1-1-1-x,c d# g#,g#major cm(#5)/g#,g#
+x-3-2-1-1-x,e g# c,c+ g#+/c e+/c,c
+x-3-x-5-5-4,e g# c,c+ g#+/c e+/c,c
+x-x-2-1-1-4,g# c e,e+ c+/e g#+/e,e
+x-x-2-3-1-4,a# c g# e,c+7/e g#+add9/e c7(#5)/e,e
+x-3-2-3-1-0,e a# c,"c7(omit 5) a#sus2(b5)/c e+(5b, omit 3)/c",c
+x-3-2-3-1-0,e a# c,"c7(omit 5) a#sus2(b5)/c e+(5b, omit 3)/c",c
+x-3-5-3-5-3,g a# e c,c7 a#6sus2(b5)/c edim(#5)/c gm6add11(omit 5)/c edim,c
+2-x-2-3-1-x,e a# c f#,f#7(b5) c7(b5)/f# a#+sus2(b5)/f# e+sus2(b5)/f# a#sus2(b5),f#
+x-3-4-3-5-x,f# a# e c,c7(b5) e+sus2(b5)/c f#7(b5)/c a#+sus2(b5)/c esus2(b5),c
+x-3-4-3-5-x,f# a# e c,c7(b5) e+sus2(b5)/c f#7(b5)/c a#+sus2(b5)/c esus2(b5),c
+x-3-4-2-1-x,f# a c,"f#dim/c am6(omit 5)/c c6(b5,omit 3)",c
+x-x-4-5-4-2,c d# f#,"cdim/f# d#m6(omit 5)/f# f#6(b5,omit 3)",f#
+x-3-1-0-1-x,d# g c,cm g+sus4/c d#6(omit 5)/c,c
+3-x-1-3-1-x,d# a# c g,cm7/g d#6/g,g
+x-3-5-3-4-3,g a# d# c,cm7 d#6/c d#major,c
+x-x-1-3-1-3,a# c g d#,cm7/d# d#6,d#
+2-x-1-3-1-x,d# a# c f#,cm7b5/f# f#6(b5),f#
+x-3-4-3-4-x,f# a# d# c,cm7b5 f#6(b5)/c d#m a#+sus4,c
+x-3-4-3-4-x,f# a# d# c,cm7b5 f#6(b5)/c d#m a#+sus4,c
+x-3-0-0-1-3,d g c,csus2 gsus4/c d7sus4(omit 5)/c,c
+x-3-5-5-3-3,g d c,csus2 gsus4/c d7sus4(omit 5)/c,c
+x-0-0-2-3-2,d f# a,dmajor/a f#m(#5)/a,a
+x-0-0-2-3-2,d f# a,dmajor/a f#m(#5)/a,a
+x-x-0-2-3-2,a f# d,dmajor f#m(#5)/d,d
+x-5-4-3-3-x,f# a# d,d+ a#+/d f#+/d,d
+x-x-0-3-3-1,a# f d,a#major/d dm(#5),d
+x-x-0-3-3-2,a# f# d,d+ f#+/d a#+/d,d
+x-x-0-3-1-2,a# c f# d,d+7 a#+add9/d d7(#5),d
+x-0-0-2-1-2,d c f# a,d7/a f#dim(#5)/a am6add11(omit 5) c6sus2(b5)/a,a
+x-x-0-2-1-2,a c f# d,d7 c6sus2(b5)/d f#dim(#5)/d am6add11(omit 5)/d f#dim,d
+x-x-0-2-1-2,a c f# d,d7 c6sus2(b5)/d f#dim(#5)/d am6add11(omit 5)/d f#dim,d
+x-x-4-5-3-5,c d a f#,d7/f# c6sus2(b5)/f# f#dim(#5) am6add11(omit 5)/f#,f#
+x-x-0-1-1-2,g# c f# d,d7(b5) f#+sus2(b5)/d g#7(b5)/d c+sus2(b5)/d f#sus2(b5),d
+x-x-4-5-3-4,c d g# f#,d7(b5)/f# f#+sus2(b5) g#7(b5)/f# c+sus2(b5)/f#,f#
+x-x-0-1-3-1,g# f d,"ddim fm6(omit 5)/d g#6(b5,omit 3)/d",d
+x-0-0-2-3-1,d f a,dm/a a+sus4 f6(omit 5)/a,a
+x-x-0-2-3-1,a f d,dm a+sus4/d f6(omit 5)/d,d
+x-x-0-2-3-1,a f d,dm a+sus4/d f6(omit 5)/d,d
+x-x-0-2-1-1,a c f d,dm7 f6/d fmajor,d
+x-x-0-2-1-1,a c f d,dm7 f6/d fmajor,d
+4-x-3-5-3-x,f c d g#,dm7b5/g# g#6(b5),g#
+x-x-0-1-1-1,g# c f d,dm7b5 g#6(b5)/d fm c+sus4,d
+x-x-0-1-1-1,g# c f d,dm7b5 g#6(b5)/d fm c+sus4,d
+x-x-0-2-3-0,a e d,dsus2 asus4/d e7sus4(omit 5)/d,d
+x-x-0-2-3-0,a e d,dsus2 asus4/d e7sus4(omit 5)/d,d
+x-x-0-2-3-3,a g d,gsus2/d dsus4 a7sus4(omit 5)/d,d
+x-4-3-1-2-1,f g# c#,c#major fm(#5)/c#,c#
+x-4-3-1-2-1,f g# c#,c#major fm(#5)/c#,c#
+x-4-3-2-2-x,f a c#,c#+ a+/c# f+/c#,c#
+x-4-3-2-2-x,f a c#,c#+ a+/c# f+/c#,c#
+x-4-3-2-0-1,f a b c#,c#+7 a+add9/c# c#7(#5),c#
+x-x-3-4-2-5,b c# a f,c#+7/f a+add9/f c#7(#5)/f,f
+x-4-3-4-2-x,f b c#,"c#7(omit 5) bsus2(b5)/c# f+(5b, omit 3)/c#",c#
+x-x-3-4-2-4,b c# g# f,c#7/f b6sus2(b5)/f fdim(#5) g#m6add11(omit 5)/f,f
+x-x-3-4-2-4,b c# g# f,c#7/f b6sus2(b5)/f fdim(#5) g#m6add11(omit 5)/f,f
+3-0-3-4-2-x,a f b c# g,a+7/g f+add9/g g7(b5) c#+7/g a+add9/g c#7(b5)/g c#7(#5)/g b+sus2(b5)/g f+sus2(b5)/g a7(#5)/g,g
+3-x-3-4-2-x,f b c# g,g7(b5) c#7(b5)/g b+sus2(b5)/g f+sus2(b5)/g bsus2(b5),g
+x-4-5-4-4-x,g b d# c#,d#+7/c# b+add9/c# d#7(#5)/c# g+ d#+ b+,c#
+x-4-2-0-2-0,e g c#,"c#dim em6(omit 5)/c# g6(b5,omit 3)/c#",c#
+x-x-2-3-2-3,a# c# g e,edim7 gdim7/e c#dim7/e a#dim7/e gdim,e
+x-x-2-1-2-0,g# c# e,c#m/e g#+sus4/e e6(omit 5),e
+x-x-2-1-3-0,g# d e,"e7(omit 5) dsus2(b5)/e g#+(5b, omit 3)/e",e
+x-4-2-1-0-0,e g# b c#,c#m7 e6/c# emajor,c#
+x-x-2-4-2-4,b c# g# e,c#m7/e e6,e
+x-2-2-0-2-0,e g c# b,c#m7b5/b g6(b5)/b c#dim,b
+x-4-2-0-0-0,e g b c#,c#m7b5 g6(b5)/c# em b+sus4,c#
+x-4-5-4-5-x,g b e c#,c#m7b5 g6(b5)/c# em b+sus4,c#
+x-x-1-1-3-x,g# d d#,"g#5(#11, omit 3)/d# d#maj7sus4(omit 5) d(b5, omit 3)",d#
+x-x-3-3-1-1,a# c f,a#sus2/f fsus4 c7sus4(omit 5)/f,f
+x-x-3-3-4-1,a# d# f,d#sus2/f a#sus4/f f7sus4(omit 5),f
+x-x-x-1-2-2,c# f# g#,f#sus2/g# c#sus4/g# g#7sus4(omit 5),g#
+0-2-2-1-0-0,b g# e,emajor g#m(#5)/e,e
+0-3-2-1-1-0,c g# e,e+ g#+/e c+/e,e
+4-x-x-5-5-4,c e g#,g#+ e+/g# c+/g#,g#
+x-x-2-1-1-0,g# c e,e+ c+/e g#+/e,e
+x-x-0-1-1-0,g# c e d,e+7/d c+add9/d e7(#5)/d g#+ e+ c+,d
+x-x-2-5-3-4,c d g# e,e+7 c+add9/e e7(#5),e
+0-2-0-1-0-0,b d g# e,e7 d6sus2(b5)/e g#dim(#5)/e bm6add11(omit 5)/e,e
+x-x-2-4-3-4,b d g# e,e7 d6sus2(b5)/e g#dim(#5)/e bm6add11(omit 5)/e g#dim,e
+x-1-0-1-3-0,d g# e a#,a#7(b5) e7(b5)/a# g#+sus2(b5)/a# d+sus2(b5)/a# dsus2(b5),a#
+x-x-2-3-3-4,a# d g# e,e7(b5) g#+sus2(b5)/e a#7(b5)/e d+sus2(b5)/e g#sus2(b5),e
+x-1-2-3-2-x,e c# a#,"a#dim c#m6(omit 5)/a# e6(b5,omit 3)/a#",a#
+x-x-2-3-5-3,a# g e,"edim gm6(omit 5)/e a#6(b5,omit 3)/e",e
+0-2-2-0-0-0,b g e,em b+sus4/e g6(omit 5)/e,e
+x-x-2-4-5-3,b g e,em b+sus4/e g6(omit 5)/e,e
+0-2-0-0-0-0,b d g e,em7 g6/e,e
+0-2-2-0-3-0,b g d e,em7 g6/e,e
+0-2-2-0-4-0,b g d# e,em(maj7) b+add11/e g6(#5)/e,e
+x-x-2-4-3-3,b d g e,em7 g6/e gmajor,e
+x-x-2-3-3-3,a# d g e,em7b5 a#6(b5)/e gm d+sus4,e
+x-x-2-3-3-3,a# d g e,em7b5 a#6(b5)/e gm d+sus4,e
+x-2-4-4-x-0,f# e b,esus2/b bsus4 f#7sus4(omit 5)/b,b
+x-x-2-4-5-2,b f# e,esus2 bsus4/e f#7sus4(omit 5)/e,e
+0-2-2-2-0-0,b a e,asus2/e esus4 b7sus4(omit 5)/e,e
+0-2-2-2-0-0,b a e,asus2/e esus4 b7sus4(omit 5)/e,e
+x-x-2-4-5-5,b a e,asus2/e esus4 b7sus4(omit 5)/e,e
+x-x-1-3-4-3,a# g d#,d#major gm(#5)/d#,d#
+x-x-5-3-4-3,a# d# g,d#major/g gm(#5),g
+3-2-1-0-0-3,b d# g,g+ d#+/g b+/g,g
+x-x-1-0-0-3,g b d#,d#+ b+/d# g+/d#,d#
+x-x-5-4-4-3,b d# g,g+ d#+/g b+/g,g
+x-2-1-0-2-3,d# g c# b,d#+7/b b+add9 d#7(#5)/b c#sus2(b5),b
+x-4-x-3-4-3,a# d# g c#,d#7/c# c#6sus2(b5) gdim(#5)/c# a#m6add11(omit 5)/c# d#major,c#
+x-x-1-3-2-3,a# c# g d#,d#7 c#6sus2(b5)/d# gdim(#5)/d# a#m6add11(omit 5)/d# gdim,d#
+x-x-1-3-2-3,a# c# g d#,d#7 c#6sus2(b5)/d# gdim(#5)/d# a#m6add11(omit 5)/d# gdim,d#
+x-x-1-2-2-3,a c# g d#,d#7(b5) g+sus2(b5)/d# a7(b5)/d# c#+sus2(b5)/d# gsus2(b5),d#
+x-x-1-2-2-4,a c# g# d#,d#7sus4,d#
+x-x-4-2-4-2,a d# f#,"d#dim/f# f#m6(omit 5) a6(b5,omit 3)/f#",f#
+x-x-1-3-4-2,a# f# d#,d#m a#+sus4/d# f#6(omit 5)/d#,d#
+x-x-4-3-4-2,a# d# f#,d#m/f# a#+sus4/f# f#6(omit 5),f#
+x-x-1-3-2-2,a# c# f# d#,d#m7 f#6/d# f#major,d#
+x-x-1-3-2-2,a# c# f# d#,d#m7 f#6/d# f#major,d#
+x-x-1-2-2-2,a c# f# d#,d#m7b5 a6(b5)/d# f#m c#+sus4,d#
+x-x-1-2-2-2,a c# f# d#,d#m7b5 a6(b5)/d# f#m c#+sus4,d#
+1-1-1-3-x-1,a# d# f,d#sus2/f a#sus4/f f7sus4(omit 5),f
+x-x-1-3-4-1,a# f d#,d#sus2 a#sus4/d# f7sus4(omit 5)/d#,d#
+4-x-1-3-4-x,d# a# g#,g#sus2 d#sus4/g# a#7sus4(omit 5)/g# a#5,g#
+x-x-1-3-4-4,a# g# d#,g#sus2/d# d#sus4 a#7sus4(omit 5)/d#,d#
+1-3-3-2-1-1,c a f,fmajor am(#5)/f,f
+x-x-3-2-1-1,a c f,fmajor am(#5)/f,f
+1-x-3-2-2-1,a c# f,f+ c#+/f a+/f,f
+x-x-3-2-2-1,a c# f,f+ c#+/f a+/f,f
+x-x-1-2-2-1,a c# f d#,f+7/d# c#+add9/d# f7(#5)/d# a+ f+ c#+,d#
+1-3-1-2-1-1,c d# a f,f7 d#6sus2(b5)/f adim(#5)/f cm6add11(omit 5)/f,f
+1-3-1-2-1-1,c d# a f,f7 d#6sus2(b5)/f adim(#5)/f cm6add11(omit 5)/f,f
+x-x-3-5-4-5,c d# a f,f7 d#6sus2(b5)/f adim(#5)/f cm6add11(omit 5)/f adim,f
+1-x-1-2-0-x,d# a b f,f7(b5) b7(b5)/f a+sus2(b5)/f d#+sus2(b5)/f asus2(b5),f
+x-x-1-2-0-1,a b f d#,b7(b5)/d# d#+sus2(b5) f7(b5)/d# a+sus2(b5)/d#,d#
+x-x-3-4-4-5,b d# a f,f7(b5) a+sus2(b5)/f b7(b5)/f d#+sus2(b5)/f asus2(b5),f
+x-x-0-1-0-1,g# b f d,ddim7 fdim7/d bdim7/d g#dim7/d fdim,d
+x-x-3-1-0-1,g# b f,"fdim g#m6(omit 5)/f b6(b5,omit 3)/f",f
+1-3-3-1-1-1,c g# f,fm c+sus4/f g#6(omit 5)/f,f
+1-3-1-1-1-1,c d# g# f,fm7 g#6/f,f
+1-3-3-1-4-1,c g# d# f,fm7 g#6/f,f
+x-x-1-1-1-1,g# c f d#,fm7/d# g#6/d# fm c+sus4,d#
+x-x-3-5-4-4,c d# g# f,fm7 g#6/f g#major,f
+x-x-3-4-4-4,b d# g# f,fm7b5 b6(b5)/f g#m d#+sus4,f
+x-x-3-4-4-4,b d# g# f,fm7b5 b6(b5)/f g#m d#+sus4,f
+x-3-3-0-1-1,f g c,fsus2/c csus4 g7sus4(omit 5)/c,c
+x-x-3-0-1-1,g c f,fsus2 csus4/f g7sus4(omit 5)/f,f
+1-1-3-3-1-1,a# c f,a#sus2/f fsus4 c7sus4(omit 5)/f,f
+1-3-3-3-1-1,c a# f,a#sus2/f fsus4 c7sus4(omit 5)/f,f
+1-3-3-3-1-1,c a# f,a#sus2/f fsus4 c7sus4(omit 5)/f,f
+3-2-0-0-0-3,b d g,gmajor bm(#5)/g,g
+3-5-5-4-3-3,d b g,gmajor bm(#5)/g,g
+3-2-1-0-0-3,b d# g,g+ d#+/g b+/g,g
+3-x-5-4-4-x,b d# g,g+ d#+/g b+/g,g
+x-x-5-4-4-3,b d# g,g+ d#+/g b+/g,g
+3-2-0-0-0-1,b d f g,g7 f6sus2(b5)/g bdim(#5)/g dm6add11(omit 5)/g,g
+3-2-0-0-0-1,b d f g,g7 f6sus2(b5)/g bdim(#5)/g dm6add11(omit 5)/g,g
+3-5-3-4-3-3,d f b g,g7 f6sus2(b5)/g bdim(#5)/g dm6add11(omit 5)/g,g
+3-x-3-4-2-x,f b c# g,g7(b5) c#7(b5)/g b+sus2(b5)/g f+sus2(b5)/g bsus2(b5),g
+3-x-3-4-2-x,f b c# g,g7(b5) c#7(b5)/g b+sus2(b5)/g f+sus2(b5)/g bsus2(b5),g
+x-4-3-0-0-1,f g b c#,c#7(b5) g7(b5)/c# b+sus2(b5)/c# f+sus2(b5)/c# fsus2(b5),c#
+x-1-x-0-2-3,g c# a#,"gdim/a# a#m6(omit 5) c#6(b5,omit 3)/a# c#(b5, omit 3)",a#
+3-1-0-0-3-3,a# d g,gm d+sus4/g a#6(omit 5)/g,g
+3-1-0-0-3-3,a# d g,gm d+sus4/g a#6(omit 5)/g,g
+3-5-5-3-3-3,d a# g,gm d+sus4/g a#6(omit 5)/g,g
+3-5-3-3-3-3,d f a# g,gm7 a#6/g,g
+3-x-3-3-3-x,f a# d g,gm7 a#6/g a#major,g
+x-1-3-0-3-x,f g d a#,gm7/a# a#6,a#
+3-x-3-3-2-x,f a# c# g,gm7b5 c#6(b5)/g f+sus4 a#m,g
+3-0-0-0-3-3,a d g,gsus2 dsus4/g a7sus4(omit 5)/g,g
+3-0-0-2-3-3,a d g,gsus2 dsus4/g a7sus4(omit 5)/g,g
+3-3-0-0-1-3,c d g,csus2/g gsus4 d7sus4(omit 5)/g,g
+3-3-5-5-3-3,c d g,csus2/g gsus4 d7sus4(omit 5)/g,g
+3-5-5-5-3-3,d c g,csus2/g gsus4 d7sus4(omit 5)/g,g
+3-5-5-5-3-3,d c g,csus2/g gsus4 d7sus4(omit 5)/g,g
+2-4-4-3-2-2,c# a# f#,f#major a#m(#5)/f#,f#
+2-4-4-3-2-2,c# a# f#,f#major a#m(#5)/f#,f#
+x-x-0-3-3-2,a# f# d,d+ f#+/d a#+/d,d
+x-x-4-3-3-2,a# d f#,f#+ d+/f# a#+/f#,f#
+x-x-4-3-3-0,a# d e f#,f#+7 d+add9/f# f#7(#5),f#
+2-4-2-3-2-2,c# e a# f#,f#7 e6sus2(b5)/f# a#dim(#5)/f# c#m6add11(omit 5)/f#,f#
+2-4-2-3-2-2,c# e a# f#,f#7 e6sus2(b5)/f# a#dim(#5)/f# c#m6add11(omit 5)/f#,f#
+x-x-4-3-2-0,a# c# e f#,f#7 e6sus2(b5)/f# a#dim(#5)/f# c#m6add11(omit 5)/f# a#dim,f#
+2-x-2-3-1-x,e a# c f#,f#7(b5) c7(b5)/f# a#+sus2(b5)/f# e+sus2(b5)/f# a#sus2(b5),f#
+x-x-4-3-1-0,a# c e f#,f#7(b5) c7(b5)/f# e+sus2(b5)/f# a#+sus2(b5)/f# a#sus2(b5),f#
+2-x-x-2-1-2,a c f#,"f#dim am6(omit 5)/f# c6(b5,omit 3)/f#",f#
+x-x-1-2-1-2,a c f# d#,d#dim7 f#dim7/d# cdim7/d# adim7/d# f#dim,d#
+2-4-4-2-2-2,c# a f#,f#m c#+sus4/f# a6(omit 5)/f#,f#
+2-4-4-2-2-2,c# a f#,f#m c#+sus4/f# a6(omit 5)/f#,f#
+2-4-2-2-2-2,c# e a f#,f#m7 a6/f#,f#
+2-4-4-2-5-2,c# a e f#,f#m7 a6/f#,f#
+2-x-2-2-1-x,e a c f#,f#m7b5 c6(b5)/f# e+sus4 am,f#
+x-x-2-2-1-2,a c f# e,f#m7b5/e c6(b5)/e f#dim,e
+x-x-4-5-5-5,c e a f#,f#m7b5 c6(b5)/f# am e+sus4,f#
+2-x-x-1-2-2,g# c# f#,f#sus2 c#sus4/f# g#7sus4(omit 5)/f#,f#
+2-x-x-1-2-2,g# c# f#,f#sus2 c#sus4/f# g#7sus4(omit 5)/f#,f#
+2-2-4-4-2-2,b c# f#,bsus2/f# f#sus4 c#7sus4(omit 5)/f#,f#
+2-4-4-4-2-2,c# b f#,bsus2/f# f#sus4 c#7sus4(omit 5)/f#,f#
