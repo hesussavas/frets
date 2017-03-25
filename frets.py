@@ -23,7 +23,8 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = os.urandom(24)
+app.config['SECRET_KEY'] = os.environ.get(
+    'SECRET_KEY')
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
     'SQLALCHEMY_DATABASE_URI')
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
@@ -117,6 +118,7 @@ def verify_password(email, password):
     if not user:
         return False
     return user.verify_password(password)
+
 
 # basic api method for getting frets
 @app.route('/api/v1/frets/', methods=['POST'])
