@@ -175,3 +175,22 @@ rule_descriptions = {'R1': 'An open string cannot be surrounded with the same fi
                      'R29': 'Check if thumb should be used when strings A and D are x or 0 and E is used',
                      'R30': 'Add big penalty when using thumb while a finger is on the string just under it',
                      'R31': 'High pitched pivot finger one rule: If finger 1 is on a high sounding string, f2 is not in use and 3 and 4 are on lower sounding strings, add a penalty'}
+
+greene_table = {
+    'V-1': ['BTAS', 'SBTA', 'ASBT', 'TASB'],
+    'V-2': ['TABS', 'STAB', 'BSTA', 'ABST'],
+    'V-3': ['ABTS', 'SABT', 'TSAB', 'BTSA'],
+    'V-4': ['STBA', 'ASTB', 'BAST', 'TBAS'],
+    'V-5': ['BATS', 'SBAT', 'TSBA', 'ATSB'],
+    'V-6': ['B-TAS', 'SB-TA', 'ASB-T', 'TASB-'],  # (V-1 with B an octave lower)
+    'V-7': ['TAB-S', 'STAB-', 'B-STA', 'AB-ST'],  # (V-2 with B an octave lower)
+    'V-8': ['TBSA', 'ATBS', 'SATB', 'BSAT'],
+    'V-9': ['TABS+', 'S+TAB', 'BS+TA', 'ABS+T'],  # (V-2 with S an octave higher)
+    'V-10': ['T-AB-S', 'ST-AB-', 'B-ST-A', 'AB-ST-', 'TA+BS+', 'S+TA+B', 'BS+TA+', 'A+BS+T'],
+    # (V-2 with both B and T an octave lower, or A and S an octave higher)
+    'V-11': ['S+TBA', 'AS+TB', 'BAS+T', 'TBAS+'],  # (V-4 with S an octave higher)
+    'V-12': ['AB-TS', 'SAB-T', 'TSAB-', 'B-TSA'],  # (V-3 with B an octave lower)
+    'V-13': ['B-T-AS', 'SB-T-A', 'ASB-T-', 'T-ASB-', 'BTA+S+', 'S+BTA+', 'A+S+BT', 'TA+S+B'],
+    # (V-1 with both B and T an octave lower, or A and S an octave higher)
+    'V-14': ['BTAS+', 'S+BTA', 'AS+BT', 'TAS+B']  # (V-1 with S an octave higher)
+}

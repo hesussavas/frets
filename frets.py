@@ -18,6 +18,9 @@ from wtforms.fields.core import StringField
 from wtforms.fields.simple import PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, Email, ValidationError
 
+from utils.fingering_rules import predict_fingering
+from utils.identify import Identify, identify
+from utils.utilities import greene_table
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -129,7 +132,7 @@ def frets():
     # validate it
     validate_frets_input(data)
     # create the output
-    output = calculate_output(data)
+    output = calculate_output(data['frets'])
     return output
 
 
@@ -157,7 +160,30 @@ def calculate_output(data):
     """ Function for creating an output for each request. Will be mocked up
         for a while
     """
-    return jsonify(random.choice(MOCKS))
+    output = dict()
+    output['chord_names'] = _get_chord_names(data)
+    output['fingers'] = _get_fingers(data)
+    output['greene_voicing'] = _get_greene_voicing(data)
+    return jsonify(output)
+
+
+def _get_fingers(data):
+    fingers, _ = predict_fingering(data)
+    return fingers
+
+
+def _get_chord_names(data):
+    idf = Identify()
+    played_notes = idf.noteForStrings(data)
+    return identify(played_notes, idf)
+
+
+def _get_greene_voicing(data):
+    idf = Identify()
+    played_notes = idf.noteForStrings(data)
+
+    return random.choice(list(greene_table.keys())) if len(
+        played_notes) == 4 else None
 
 
 if __name__ == '__main__':

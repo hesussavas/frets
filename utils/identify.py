@@ -302,7 +302,7 @@ class Identify:
         played_notes = list()
         for string_number in range(0, len(fret_data)):
             fret = fret_data[string_number]
-            if fret != 'x':
+            if fret not in ['x', '0', 0]:
                 open_note_index = self.notes.index(self.tuning[string_number])
                 note_index = open_note_index + int(fret)
                 if note_index < len(self.notes):
@@ -394,7 +394,7 @@ class Chord:
 class Controller:
     def __init__(self):
         self.identifier = Identify()
-        self.filename = "test2.csv"
+        self.filename = "test.csv"
         self.outFile = "output.csv"
         self.key = "Fret Positions"
         self.fret_positions = get_column_with_key(filename=self.filename,
@@ -425,20 +425,21 @@ class Controller:
                 chord.chord_list)
 
 
-controller = Controller()
-data_to_write = list()
-length = len(controller.fret_positions)
-for i in range(0, length):
-    controller.identify(i)
-    result = controller.identify(i)
-    lowest_note = result[1][0]
-    notes = result[2]
-    chord_list = result[3]
-    cleaned_output_string = ' '.join(
-        str(chord) for chord in controller.identify(i)[3])
-    notes_string = ' '.join(str(note) for note in notes)
-    data_to_write.append(
-        [controller.fret_positions[i], notes_string, cleaned_output_string,
-         lowest_note])
-    print(data_to_write[i])
-controller.writeFile(data_to_write)
+def identify(played_notes, idf):
+    chord = Chord(played_notes)
+    chord_list = list()
+    for distance in chord.distances:
+        chord_list = chord_list + idf.identify_chord(distance,
+                                                     chord.cleaned_notes)
+    chord.chord_list = chord.remove_duplicates(chord_list)
+    chord.chord_list = chord.add_bass_to_list()
+    if (len(chord.cleaned_notes) == 4 and
+                chord.chord_low_note not in chord.notes_withoutbase):
+        for distance in chord.distances_withoutbase:
+            chord.chord_list = chord.chord_list + idf.identify_chord_triad(
+                distance, chord.notes_withoutbase)
+    elif len(chord.cleaned_notes) == 3 and \
+                    chord.chord_low_note not in chord.notes_withoutbase:
+        chord.chord_list = chord.chord_list + idf.identify_chord_interval(
+            chord.distances_withoutbase[1], chord.notes_withoutbase)
+    return chord.chord_list
