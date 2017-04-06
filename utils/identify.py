@@ -442,4 +442,4 @@ def identify(played_notes, idf):
                     chord.chord_low_note not in chord.notes_withoutbase:
         chord.chord_list = chord.chord_list + idf.identify_chord_interval(
             chord.distances_withoutbase[1], chord.notes_withoutbase)
-    return chord.chord_list
+    return chord.chord_list or None
