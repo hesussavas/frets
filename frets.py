@@ -1,6 +1,9 @@
 import os
 import random
 
+import sys
+import traceback
+
 from flask import Flask
 from flask_httpauth import HTTPBasicAuth
 from flask_migrate import Migrate
@@ -19,7 +22,7 @@ from wtforms.fields.simple import PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, Email, ValidationError
 
 from utils.fingering_rules import predict_fingering
-from utils.identify import Identify, identify
+from utils.identify import identify, idntf
 from utils.utilities import greene_table
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -167,23 +170,59 @@ def calculate_output(data):
     return jsonify(output)
 
 
-def _get_fingers(data):
-    fingers, _ = predict_fingering(data)
-    return fingers
-
-
 def _get_chord_names(data):
-    idf = Identify()
-    played_notes = idf.noteForStrings(data)
-    return identify(played_notes, idf)
+    """
+    Returns chord names for specified frets
+    """
+
+    try:
+        played_notes = idntf.noteForStrings(data)
+        names = identify(played_notes, idntf)
+    except Exception:
+        _handle_exception()
+        return None
+    return names or None
+
+
+def _get_fingers(data):
+    """
+    Returns fingers for specified frets
+    """
+
+    try:
+        fingers, _ = predict_fingering(data)
+    except Exception:
+        _handle_exception()
+        return None
+    return fingers or None
 
 
 def _get_greene_voicing(data):
-    idf = Identify()
-    played_notes = idf.noteForStrings(data)
+    """
+    Returns green voicing data if only there are 4 items in the
+    chord list ofr specified frets.
+    """
 
-    return random.choice(list(greene_table.keys())) if len(
-        played_notes) == 4 else None
+    try:
+        played_notes = idntf.noteForStrings(data)
+        result = random.choice(list(greene_table.keys())) if len(
+            played_notes) == 4 else None
+    except Exception:
+        _handle_exception()
+        return None
+    return result
+
+
+def _handle_exception():
+    """
+    Prints the traceback of the latest exception.
+    Used in cases where logic code fails
+    """
+
+    exc_type, exc_value, exc_traceback = sys.exc_info()
+    traceback.print_tb(exc_traceback, limit=1, file=sys.stdout)
+    traceback.print_exception(exc_type, exc_value, exc_traceback,
+                              limit=2, file=sys.stdout)
 
 
 if __name__ == '__main__':
