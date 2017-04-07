@@ -91,31 +91,6 @@ def register():
 def success():
     return render_template('success.html')
 
-# mocked outputs - for start
-MOCKS = [{"fingers": [0, 0, 2, 4, 1, 3],
-          "caged": "E",
-          "chord_names": ["Emaj", "G#m(b13)", "Badd11", "Eb+sus(b9)"],
-          "voicing": "drop 2",
-          "greene_voicing": "V-2"},
-         {"fingers": [0, 1, 4, 2, 3, 0],
-          "caged": "C",
-          "chord_names": ["C7", "E#m(b13)", "Badd13"],
-          "voicing": "drop 3",
-          "greene_voicing": "V-2"},
-         {"fingers": [0, 1, 3, 2, 0, 0],
-          "caged": "A",
-          "chord_names": ["Amin", "B#m(b13)"],
-          "voicing": "drop 2",
-          "greene_voicing": None}
-         ]
-
-
-# simple 'hello world' for the sake of test
-# TODO - remove before deploy
-@app.route('/hello')
-def hello_world():
-    return 'Hello World!'
-
 
 @auth.verify_password
 def verify_password(email, password):
@@ -160,9 +135,7 @@ def validate_frets_input(data):
 
 
 def calculate_output(data):
-    """ Function for creating an output for each request. Will be mocked up
-        for a while
-    """
+    """ Function for creating an output for each request. """
     output = dict()
     output['chord_names'] = _get_chord_names(data)
     output['fingers'] = _get_fingers(data)
