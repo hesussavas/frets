@@ -302,7 +302,8 @@ class Identify:
         played_notes = list()
         for string_number in range(0, len(fret_data)):
             fret = fret_data[string_number]
-            if fret not in ['x', '0', 0]:
+            #if fret not in ['x', '0', 0]:
+            if fret != 'x':
                 open_note_index = self.notes.index(self.tuning[string_number])
                 note_index = open_note_index + int(fret)
                 if note_index < len(self.notes):

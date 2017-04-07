@@ -129,13 +129,19 @@ def validate_frets_input(data):
             try:
                 int(f)
             except ValueError:
-                raise BadRequest('Inputted frets must be integers')
+                if f.lower() != 'x':
+                    raise BadRequest(
+                        'Inputted frets must be integers or "x" letter')
     else:
         raise BadRequest('Input data is invalid. No frets provided.')
 
 
 def calculate_output(data):
     """ Function for creating an output for each request. """
+
+    # adjust input data in order to use in logic code (must be strings)
+    data = ["{}".format(d) for d in data]
+
     output = dict()
     output['chord_names'] = _get_chord_names(data)
     output['fingers'] = _get_fingers(data)
