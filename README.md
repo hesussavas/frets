@@ -7,9 +7,10 @@ Firstly, user must register itself by going to the index page.
 Then the API will be available for his credits by the address ```api/v1/frets/```
 
 --
+You can use numbers and letter 'x' as an input data array of frets.
 Example of the request with the already registered user:
 ```
-http POST http://127.0.0.1:5000/api/v1/frets/ frets:='["0", "3", "1", "2", "1", "0"]' --auth test@example.com:123456
+http POST http://127.0.0.1:5000/api/v1/frets/ frets:='[5, "x", "x", 5, 4, 5]' --auth test@example.com:123456
 ```
 
 Response:
@@ -22,18 +23,18 @@ Server: Werkzeug/0.11.15 Python/3.5.2
 
 {
     "chord_names": [
-        "Adim/C",
-        "Cm6(omit 5)",
-        "D#6(b5,omit 3)/C"
+        "Adim",
+        "Cm6(omit 5)/A",
+        "D#6(b5,omit 3)/A"
     ],
     "fingers": [
-        "0",
-        "4",
-        "1",
-        "3",
         "2",
-        "0"
+        "x",
+        "x",
+        "3",
+        "1",
+        "4"
     ],
-    "greene_voicing": "V-11"
+    "greene_voicing": "V-5"
 }
 ```
